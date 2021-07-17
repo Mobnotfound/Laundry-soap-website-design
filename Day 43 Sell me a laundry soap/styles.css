@@ -1,0 +1,118 @@
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: #4B5ED7;
+        color: white;
+        font-family: 'Inconsolata', monospace;
+        font-weight: 500;
+    }
+    
+    hr {
+        border: none;
+        border-top: 12px dotted white;
+        color: #4B5ED7;
+        background-color: #4B5ED7;
+        height: 1px;
+        width: 100%;
+    }
+    
+    .contact:hover {
+        text-decoration: underline;
+    }
+    
+    .top-header {
+        font-size: 40px;
+        background-color: #4B5ED7;
+        padding-top: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
+        left: 0;
+        right: 0;
+        top: 0;
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 70%;
+    }
+    
+    .menu-text {
+        font-size: 100%;
+        text-align: center;
+        margin-top: 15%;
+        margin-bottom: 30%;
+        line-height: 300%;
+    }
+    
+    .mobuscus {
+        text-decoration: underline;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .menuspan {
+        text-decoration: underline;
+    }
+    
+    .circle {
+        margin: 0 auto;
+        margin-top: -10rem;
+        background-color: white;
+        border-radius: 50%;
+        width: 18em;
+        height: 18em;
+    }
+    
+    .soap-photo {
+        position: absolute;
+        left: 650px;
+        top: 800px;
+        width: 14em;
+        height: 14em;
+    }
+    
+    .reason-box {
+        display: grid;
+        gap: 60%;
+    }
+    
+    .reason {
+        align-content: space-between;
+    }
+    
+    .explanation {
+        display: flex;
+        margin: 200px 100px;
+        padding-right: 50px;
+        padding-left: 50px;
+        font-size: 40px;
+    }
+    
+    .washing-hands {
+        margin: auto;
+    }
+    
+    .botom-container {
+        font-weight: 600;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        box-sizing: border-box;
+        height: 90px;
+    }
+    
+    footer {
+        margin-bottom: 80px;
+        margin-top: 80px;
+    }
+    
+    .footer-link:hover {
+        text-decoration: underline;
+    }
+    
+    .footer-link {
+        display: flex;
+        flex-flow: column wrap-reverse;
+    }
